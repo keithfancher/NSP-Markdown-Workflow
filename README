@@ -1,2 +1,32 @@
+WHAT IS IT?
+===========
+
 An experimental Markdown workflow for writing No Starch books. Beats the hell
 out of using straight LaTeX!
+
+Note that if there are any NSP-specific page elements you need that Markdown
+lacks syntax for (notes, boxes, etc), you can just insert straight LaTeX into
+the .txt file and it will be perserved during the conversion.
+
+Also note that this requires pandoc for the conversion, as well as anything you
+need to build normal No Starch LaTeX books (fonts, extra TeX packages, etc.).
+
+My goal here was to give authors a more palatable plaintext format to work
+with, as well as something that could be easily converted into other formats
+(HTML, ePub, whatever).
+
+
+HOW DO I USE IT?
+================
+
+Just write your chapters! The make_pdf.sh script will automatically find any
+files with extension .txt, convert them to LaTeX files using pandoc, and spruce
+'em up a bit to be NSP-compatible. Then a PDF should pop out in your working
+directory.
+
+To make our lives easier, it would be best if you named your chapters in the
+form: XX_name.txt, where XX is the chapter number. Note that Introductions to
+NSP books are un-numbered, and are treated as Chapter 00.
+
+Just take a look at the three sample chapters provided, it should give you a
+decent idea.
