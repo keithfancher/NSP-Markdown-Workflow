@@ -1,0 +1,36 @@
+# The Absolute Basics
+
+Yes, that's what we'll talk about in this chapter.
+
+
+## Let's Look at Some Code
+
+Okay, here's an example in my own invented pseudo-code:
+
+    print "oh uh hello what okay"
+    if pie_crusts == amazing
+        well_duh
+    else
+        goto hell
+
+Shall we talk about this snippet? No? Okay! We should at least test an inline
+`literal value` or two, right?
+
+Now let's talk **bulleted lists**:
+
+* This is an item
+* This is another
+* What about this one?
+
+Bye bye!
+
+Actually, let's get another code block in there just in case:
+
+    print "bloop"
+    print "blaap"
+
+Yeah?
+
+\begin{note}
+This is a note.
+\end{note}
