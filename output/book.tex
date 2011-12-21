@@ -3,9 +3,12 @@
 %
 
 \documentclass[cfonts]{nostarch}
-%\usepackage{amsmath}
 \usepackage{nshyper}
 %\usepackage[utf8x]{inputenc}
+
+% if you remove this, you need to change the way pandoc generates lists, or add
+% a new rule to nspify.sed to remove the [] bit after \enumerate{}
+\usepackage{enumerate} 
 
 % configure lst to allow line-breaking in \lstinline blocks
 \lstset{breakatwhitespace=true, breaklines=true}

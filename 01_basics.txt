@@ -34,3 +34,13 @@ Yeah?
 \begin{note}
 This is a note.
 \end{note}
+
+## This Section Will Have a Numbered List
+
+Sound good? Here we go!
+
+1. Some list item
+2. Blah blah blah
+3. Works great I guess
+
+Okay, good.
