@@ -1,19 +1,18 @@
 WHAT IS IT?
 ===========
 
-An experimental Markdown workflow for writing No Starch books. Beats the hell
-out of using straight LaTeX!
-
-Note that if there are any NSP-specific page elements you need that Markdown
-lacks syntax for (notes, boxes, etc), you can just insert straight LaTeX into
-the .txt file and it will be perserved during the conversion.
-
-Also note that this requires pandoc for the conversion, as well as anything you
-need to build normal No Starch LaTeX books (fonts, extra TeX packages, etc.).
+An experimental Markdown (http://daringfireball.net/projects/markdown/)
+workflow for writing No Starch books. Beats the hell out of using straight
+LaTeX!
 
 My goal here was to give authors a more palatable plaintext format to work
 with, as well as something that could be easily converted into other formats
-(HTML, ePub, whatever).
+(HTML, ePub, ODT, whatever).
+
+Note that this requires pandoc for the conversion, as well as anything you need
+to build normal No Starch LaTeX books (fonts, extra TeX packages, etc.). If
+you're an author, you don't have to worry about that unless you really want to
+build the PDF yourself.
 
 
 HOW DO I USE IT?
@@ -24,9 +23,29 @@ files with extension .txt, convert them to LaTeX files using pandoc, and spruce
 'em up a bit to be NSP-compatible. Then a PDF should pop out in your working
 directory.
 
-To make our lives easier, it would be best if you named your chapters in the
-form: XX_name.txt, where XX is the chapter number. Note that Introductions to
-NSP books are un-numbered, and are treated as Chapter 00.
+Note that if there are any NSP-specific page elements you need that Markdown
+lacks syntax for (notes, boxes, etc.), you can just insert straight LaTeX into
+the .txt file and it will be perserved during the conversion.
 
-Just take a look at the three sample chapters provided, it should give you a
-decent idea.
+
+WHAT ELSE?
+==========
+
+Don't mess with the generated LaTeX if at all possible. And if you absolutely
+*must* tweak it, do so after the pages have been edited, revised, tech
+reviewed, copyedited, and are ready for "layout." The idea is that nobody has
+to futz with LaTeX until the last possible moment, before the pages are proof
+read. Otherwise you might as well just write your book in LaTeX! (Don't do
+that. Trust me, it's really annoying.)
+
+Also, to make our lives easier, it would be best if you named your chapters in
+the form: XX_name.txt, where XX is the chapter number. Note that Introductions
+to NSP books are un-numbered, and are treated as Chapter 00. There are a few
+"example" chapters already set up for your reference which should make things
+pretty clear.
+
+Any other questions/bugs/whatever, just ask me. Or take a look at the script --
+it's really simple. Pandoc is doing all the heavy lifting.
+
+~ Keith
+keith@nostarch.com
