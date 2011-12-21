@@ -20,5 +20,5 @@ mv -f chapter_list.tex output
 # build the PDF
 cd output
 pdflatex book.tex
-cp book.pdf ..
+mv -f book.pdf ..
 cd ..
