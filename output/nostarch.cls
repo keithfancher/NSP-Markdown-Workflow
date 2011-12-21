@@ -577,7 +577,12 @@
      {\ifnum \c@chapter>\z@ \thechapter-\fi \@arabic\c@figure}
 \renewcommand \thetable
      {\ifnum \c@chapter>\z@ \thechapter-\fi \@arabic\c@table}
-\renewcommand \thelstlisting
+% Depending on your LaTeX/listings versions, one of the following will cause an
+% annoying error when building a document. Uncomment whichever works for you.
+% In my experience, newever LaTeX versions need \newcommand and older versions
+% need \renewcommand. Don't ask. /kf
+%\renewcommand \thelstlisting
+\newcommand \thelstlisting
      {\ifnum \c@chapter>\z@ \thechapter-\fi \@arabic\c@lstlisting}
 \DeclareCaptionFormat{nostarchfigfmt}{\fontfamily{\sfdefault}%
   \fontshape{it}\fontsize{8.5pt}{9pt}\fontseries{k}\selectfont\unskip#1#2#3}
