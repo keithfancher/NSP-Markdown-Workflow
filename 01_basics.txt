@@ -1,11 +1,17 @@
 # The Absolute Basics
 
-Yes, that's what we'll talk about in this chapter.
+
+Gangster pimpin'. My shizz potenti. We gonna chung nisl. Gangster elizzle
+sizzle, ullamcorper quis, ullamcorper izzle, dang sure, uhuh ... yih!. Morbi
+egizzle ass. Bling bling felizzle. Morbi funky fresh, yo vitae fringilla
+shizznit, boom shackalack mi varius sheezy, sizzle laorizzle neque enim vizzle
+augue.
 
 
 ## Let's Look at Some Code
 
-Okay, here's an example in my own invented pseudo-code:
+
+Vivamizzle tempizzle go to hizzle izzle dizzle:
 
     print "oh uh hello what okay"
     if pie_crusts == amazing
@@ -13,18 +19,17 @@ Okay, here's an example in my own invented pseudo-code:
     else
         goto hell
 
-Shall we talk about this snippet? No? Okay! We should at least test an inline
-`literal value` or two, right?
+Morbi placerat `well_duh`, arcu mah nizzle euismod shizznit `pie_crusts`. My
+shizz dang adipiscing pimpin', cursizzle gangster.
 
-Now let's talk **bulleted lists**:
+Now let's talk bulleted lists:
 
 * This is an item
 * This is another
 * What about this one?
 
-Bye bye!
-
-Actually, let's get another code block in there just in case:
+Nizzle lectizzle ma nizzle, facilisizzle its fo rizzle, tempizzle shiznit,
+bizzle in, shut the shizzle up:
 
     print "bloop"
     print "blaap"
@@ -32,15 +37,25 @@ Actually, let's get another code block in there just in case:
 Yeah?
 
 \begin{note}
-This is a note.
+This is a note, fo shizzle.
 \end{note}
 
-## This Section Will Have a Numbered List
 
-Sound good? Here we go!
+## This Section Will Have a Numbered List and a Figure
+
+
+Curabitur consequizzle dawg vizzle elizzle. Ass bibendizzle dolor funky fresh shit.
 
 1. Some list item
 2. Blah blah blah
 3. Works great I guess
 
-Okay, good.
+Class doggy taciti sociosqu izzle litora torquent things conubia nostra, hizzle
+hymenaeos. Aliquizzle interdizzle, daahng dawg nec nonummy, ass orci go to
+hizzle crazy, in sempizzle risus own yo' mah nizzle sizzle.
+
+![Pie crust in its natural habitat](img/pie.jpg)
+
+Daahng dawg doggy nibh, suscipit vitae, vestibulum funky fresh, rutrizzle eu,
+velit. Maurizzle black maurizzle. Sed nizzle magna sizzle amet doggy dope
+congue.
